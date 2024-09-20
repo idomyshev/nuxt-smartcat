@@ -1,4 +1,9 @@
 {
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential", // or 'plugin:vue/vue3-recommended' for stricter rules
+    "plugin:prettier/recommended" // Make sure Prettier is working alongside ESLint
+  ],
   "rules": {
     "vue/multi-word-component-names": "off",
     "semi": ["error", "always"],
