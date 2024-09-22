@@ -1,4 +1,8 @@
 <template>
+  <div>
+    <br />
+    <NuxtLink :to="{ name: 'index' }">Home page</NuxtLink>
+  </div>
   <h1>Users page</h1>
   <div class="user-cards">
     <template v-for="user in users" :key="user.id">

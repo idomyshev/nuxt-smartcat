@@ -1,8 +1,10 @@
 <template>
+  <div>
+    <br />
+    <NuxtLink :to="{ name: 'users' }">Users page</NuxtLink>
+  </div>
   <h1>User page</h1>
   <UserCard v-if="user" :model-value="user" />
-  <br />
-  <NuxtLink :to="{ name: 'users' }">Back to Users page</NuxtLink>
 </template>
 
 <script lang="ts" setup>
